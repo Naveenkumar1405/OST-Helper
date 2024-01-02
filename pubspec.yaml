@@ -1,0 +1,33 @@
+name: ost_helper
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  provider: ^6.0.5
+  firebase_database: ^10.3.0
+  firebase_core: ^2.18.0
+  firebase_auth: ^4.11.0
+  either_dart: ^1.0.0
+  get_it: ^7.6.4
+  cached_network_image: ^3.3.0
+  internet_connection_checker: ^1.0.0+1
+  lottie: ^2.6.0
+  flutter_svg: ^2.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/svg/
+    - assets/images/

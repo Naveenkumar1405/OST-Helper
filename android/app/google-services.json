@@ -1,0 +1,155 @@
+{
+  "project_info": {
+    "project_number": "928008787147",
+    "firebase_url": "https://smart-things-ab7d2-default-rtdb.firebaseio.com",
+    "project_id": "smart-things-ab7d2",
+    "storage_bucket": "smart-things-ab7d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928008787147:android:bd15c197ad38525e86b74e",
+        "android_client_info": {
+          "package_name": "com.example.ost_helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Jg4BM1CpHHYNIZlDXV-bHFZvfkLdicI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "928008787147-htm5rmkfirvfuohml0khgip9d38ogj9r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onwords.onwordsSmartThings"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928008787147:android:d12f07724ac5a6c886b74e",
+        "android_client_info": {
+          "package_name": "com.onwords.ost_tab_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Jg4BM1CpHHYNIZlDXV-bHFZvfkLdicI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "928008787147-htm5rmkfirvfuohml0khgip9d38ogj9r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onwords.onwordsSmartThings"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928008787147:android:50cab2e9c83b831486b74e",
+        "android_client_info": {
+          "package_name": "com.onwords.smart_things"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Jg4BM1CpHHYNIZlDXV-bHFZvfkLdicI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "928008787147-htm5rmkfirvfuohml0khgip9d38ogj9r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onwords.onwordsSmartThings"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:928008787147:android:6dead4bc97e201e886b74e",
+        "android_client_info": {
+          "package_name": "com.ps_castle_smarthome"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Jg4BM1CpHHYNIZlDXV-bHFZvfkLdicI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "928008787147-e8i77dlmnee5sq0mmp5p4iiidsjt24e2.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "928008787147-htm5rmkfirvfuohml0khgip9d38ogj9r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.onwords.onwordsSmartThings"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
