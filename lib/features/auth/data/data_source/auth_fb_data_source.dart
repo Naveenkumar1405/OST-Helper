@@ -44,9 +44,9 @@ class AuthFbDataSourceImpl implements AuthFbDataSource {
   Future<Either<Failure, UserEntity>> getUser({required String uid}) async {
     UserModel? user;
     try {
-      await _firebaseDatabase.ref("Users/$uid").once().then((value) {
+      await _firebaseDatabase.ref("new_db/users/$uid").once().then((value) {
         if (value.snapshot.exists) {
-          user = UserModel.fromFirebase(value.snapshot);
+          user = UserModel.fromFirebase(value.snapshot.child("user_info"));
         }
       });
       if (user != null) {

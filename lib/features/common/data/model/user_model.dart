@@ -22,6 +22,6 @@ class UserModel extends UserEntity {
         uid: userData.key.toString(),
         name: info["name"].toString(),
         email: info["email"].toString(),
-        profileUrl: info["photoUrl"]?.toString() ?? "");
+        profileUrl: info["image_url"]?.toString() ?? "");
   }
 }
