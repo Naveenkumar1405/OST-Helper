@@ -3,9 +3,7 @@ import 'package:flutter/material.dart';
 import '../../../common/domain/entity/ost_user_entity.dart';
 import '../widget/search_field.dart';
 
-/// @author : Jibin K John
-/// @date   : 02/01/2024
-/// @time   : 13:31:34
+/// @author : im_navi
 
 class UsersList extends StatefulWidget {
   final ValueNotifier<List<OSTUserEntity>> allUsers;

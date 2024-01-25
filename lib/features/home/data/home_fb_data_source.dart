@@ -25,8 +25,20 @@ class HomeFbDataSource {
         await _firebaseDatabase.ref("new_db/users").once().then((users) async {
           if (users.snapshot.exists) {
             for (final userData in users.snapshot.children) {
+              bool hasAccessNode =
+                  false; // Flag to check if "access" node is present
+              bool hasHomesNode =
+                  false; // Flag to check if "homes" node is present
               List<String> products = [];
+
               for (final home in userData.child("homes").children) {
+                if (home.key == "access") {
+                  hasAccessNode = true;
+                  break;
+                }
+
+                hasHomesNode = true; // Set the flag if "homes" node is present
+
                 for (final room in home.child("rooms").children) {
                   for (final product in room.child("products").children) {
                     products.add(product.key.toString());
@@ -34,16 +46,19 @@ class HomeFbDataSource {
                 }
               }
 
-              final user = UserModel.fromFirebase(userData.child("user_info"));
-              usersList.add(
-                OSTUserEntity(
-                  uid: user.uid,
-                  name: user.name,
-                  email: user.email,
-                  profileUrl: user.profileUrl,
-                  products: products,
-                ),
-              );
+              if (!hasAccessNode && hasHomesNode) {
+                final user =
+                    UserModel.fromFirebase(userData.child("user_info"));
+                usersList.add(
+                  OSTUserEntity(
+                    uid: user.uid,
+                    name: user.name,
+                    email: user.email,
+                    profileUrl: user.profileUrl,
+                    products: products,
+                  ),
+                );
+              }
             }
           }
         });

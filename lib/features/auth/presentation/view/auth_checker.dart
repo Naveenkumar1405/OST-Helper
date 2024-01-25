@@ -6,9 +6,7 @@ import '../provider/authentication_provider.dart';
 import 'auth_error_screen.dart';
 import 'login_screen.dart';
 
-/// @author : Jibin K John
-/// @date   : 02/01/2024
-/// @time   : 10:32:16
+/// @author : im_navi
 
 class AuthChecker extends StatefulWidget {
   const AuthChecker({Key? key}) : super(key: key);

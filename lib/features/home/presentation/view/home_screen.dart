@@ -1,14 +1,9 @@
 import 'package:flutter/material.dart';
-
 import '../../../common/domain/entity/ost_user_entity.dart';
 import '../../../../core/config/injection_container.dart' as di;
 import '../../data/home_fb_data_source.dart';
 import '../widget/drawer.dart';
 import 'users_list.dart';
-
-/// @author : Jibin K John
-/// @date   : 02/01/2024
-/// @time   : 11:58:54
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);

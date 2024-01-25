@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'login_screen.dart';
 
-/// @author : Jibin K John
-/// @date   : 02/01/2024
-/// @time   : 11:59:22
+/// @author : im_navi
 
 class AuthErrorScreen extends StatelessWidget {
   final String error;

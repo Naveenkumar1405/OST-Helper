@@ -7,6 +7,8 @@ import 'features/auth/presentation/view/auth_checker.dart';
 import 'firebase_options.dart';
 import 'core/config/injection_container.dart' as di;
 
+//author : im_navi
+
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);

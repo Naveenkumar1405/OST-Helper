@@ -6,9 +6,7 @@ import '../../../../core/mixin/validation_mixin.dart';
 import '../../../home/presentation/view/home_screen.dart';
 import '../provider/authentication_provider.dart';
 
-/// @author : Jibin K John
-/// @date   : 02/01/2024
-/// @time   : 11:55:26
+/// @author : im_navi
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({Key? key}) : super(key: key);
