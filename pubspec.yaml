@@ -22,6 +22,7 @@ dependencies:
   internet_connection_checker: ^1.0.0+1
   lottie: ^2.6.0
   flutter_svg: ^2.0.8
+  mqtt_client: ^10.2.0
 
 dev_dependencies:
   flutter_test:

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 import '../../../auth/presentation/provider/authentication_provider.dart';
 import '../../../auth/presentation/view/login_screen.dart';
+import '../../../mqtt/presentation/view/connection_screen.dart';
 import '../../data/client_data.dart';
 import '../view/client_screen.dart';
 import 'profile_avatar.dart';
@@ -64,6 +65,41 @@ class CustomDrawer extends StatelessWidget {
                       }
                     },
                     child: const Text('Check Client Connections'),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black, // Background color
+                      onPrimary: Colors.white, // Text color
+                      elevation: 5,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    ),
+                  ),
+                  ElevatedButton(
+                    onPressed: () async {
+                      try {
+                        Navigator.of(context).push(
+                          MaterialPageRoute(
+                              builder: (context) => const ConnectionScreen()),
+                        );
+                      } catch (e) {
+                        ScaffoldMessenger.of(context).showSnackBar(
+                          SnackBar(content: Text('Error: $e')),
+                        );
+                      }
+                    },
+                    child: const Text('Mqtt Client Testing'),
+                    style: ElevatedButton.styleFrom(
+                      primary: Colors.black, // Background color
+                      onPrimary: Colors.white, // Text color
+                      elevation: 5,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      padding:
+                          EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                    ),
                   ),
                 ],
               ),
